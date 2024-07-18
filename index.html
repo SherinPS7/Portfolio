@@ -2,52 +2,80 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    </head>
-
-  <section id="nav-container">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="fun.js"></script>
+</head>
+ <!-- <section id="nav-container">
   <a class="nav-items" href="#Websites" >WEBSITES</a></br>
    <a class="nav-items" href="#Java_projects">JAVAPROJECTS</a></br>
    <a class="nav-items" href="#AI_Projects">ARTPROJECTS</a></br>
   <a class="nav-items" href="#About">ABOUT</a></br>
-  </section>
+  </section>-->
 <main>
-
-    <section class="jumbotron-container" >
-        <p id="jumbo-head">Hello,</p>
-        <h1 id="jumbo-lead">I am SHERIN PS</h1>
-        <hr id="jumbo-hr">
-        <p id=" jumbo-line">These are the projects I've done so far :
-            <strong><a class="btn btn-primary btn-lg" href="https://github.com/SherinPS7/Coursera-mod2" target="_blank" >Link to github repo</a></strong>
-        </p>
-    </section>
-<div class="content">
-<section class="main-section" id="Websites">
-  <header>WEBSITES</header>
-  <div class="images-container">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg" id="image">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
-</div>
-
-  </section>
-<section class="main-section"id="Java_projects">
-  <header>JAVAPROJECTS</header> 
-  <div class="images-container">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg" id="image">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
-  <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
-</div>
+<section class="Intro">
+  <h2 id="hi">Hi</h2>
+  <h1 id="Name">I'm Sherin</h1>
+  <p id="intro-text">These are the projects I've done so far:<a href="">Link to Github Repo</p></a>
+  
 </section>
-<section class="main-section" id="AI_Projects">
-  <header>AI PROJECTS</header>
-  <div class="images-container">
-    <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg" id="image">
-    <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
-    <img src="https://static.vecteezy.com/system/resources/previews/000/457/141/original/landing-page-template-of-website-design-illustration-concept-isometric-flat-design-concept-of-web-page-design-for-website-and-mobile-website-vector-illustration.jpg"id="image">
+<hr>
+
+
+  <section class="main-section">
+    <div class="image-contents">
+    <header>MEMORY RECALL GAME (JAVA)</header> 
+    
+    <div class="image-container reveal-btn" >
+        <img src="images/memgame.png" alt="Memory Recall Game Image" id="image">
+    </div>
+    <div class="image-content hidden-content">
+      <ul >
+ 
+        <li>Developed a Java-based memory recall game that challenges users to remember sequences
+         of patterns.</li>
+         <li> Integrated it with a MySQL database for storing high scores and user progress.</li>
+          <li>Leveraged JDBC for seamless communication between the game and the database.</li>
+          <a href="https://github.com/SherinPS7/MemoryGame.git">Click here</a>
+      </ul>
+    </div>
   </div>
-  </section>
+  <hr>
+  <div class="image-contents">
+  <header>MAZE SOLVER (PYTHON)</header>
+  <div class="image-container reveal-btn">
+     <img class="reveal-btn" src="images/maze-solver.png" alt="Maze solver image"id="image">
+  </div>
+   <div class="image-content hidden-content">
+      <ul >
+        
+      <li>Implemented a Python maze solver using graph algorithms.</li>
+     <li> Successfully solved complex mazes with varying obstacles and pathfinding constraints.</li>
+     <a href="https://github.com/SherinPS7/Maze-Solver.git">Click here</a>
+      </ul>
+    </div>
+  </div>
+  <hr>
+
+  <div class="image-contents">
+    <header>PORTFOLIO WEBSITE</header>
+    <div class="image-container reveal-btn">
+      <img class="reveal-btn" src="images/portfolio.png" alt="Portfolio Image" id="image">
+  </div>
+    <div class="image-content hidden-content">
+      
+      <ul>
+        
+       <li> Designed and coded a responsive portfolio website using HTML, CSS, and JavaScript.</li>
+      <li> Utilized CSS flexbox and media queries to create flexible layouts. </li>
+      <a href="https://github.com/SherinPS7/Portfolio.git">Click here</a>
+    </ul>
+   </div>
+  </div>
+  <hr>
+</section>
+
 <section class="main-section" id="About">
   <header id="About">ABOUT</header>
   <div id="about-content">
